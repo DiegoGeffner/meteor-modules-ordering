@@ -1,0 +1,11 @@
+{
+  "name": "modules-ordering",
+  "description": "Modules' Ordering on the Client Side for Meteor",
+  "homepage": "https://github.com/DiegoGeffner/meteor-modules-ordering",
+  "author": "Diego Geffner <DiegoPGeffner@gmail.com>",
+  "version": "0.1",
+  "git": "https://github.com/DiegoGeffner/meteor-modules-ordering.git",
+  "packages": {
+    "coffeescript": "1.0",
+  }
+}
