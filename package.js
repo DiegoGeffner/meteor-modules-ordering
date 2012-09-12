@@ -3,8 +3,8 @@ Package.describe({
 });
 
 Package.on_use(function (api) {
-  api.use('coffeescript', 'client');
-  api.add_files('ModulesOrdering.coffee', 'client');
+  api.use('coffeescript', ['client', 'server']);
+  api.add_files('ModulesOrdering.coffee', ['client', 'server']);
 });
 
 Package.on_test(function (api) {
